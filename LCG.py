@@ -24,3 +24,16 @@ print("Ejercicio No.2")
 print("b. incremento =", incremento) 
 S3 = (s2 * multiplicador + incremento) % modulo
 print("c. S3 =", S3) 
+
+#Ejerccio No.3
+xs1 = 1617562532769340
+xs2 = 2688456964915964
+xs3 = 2557694464258732
+m = 3173287219423490
+a = ((xs3 - xs2) / (xs2 - xs1)) % m
+c = (xs2 - (a * xs1 % m)) + m
+xs4 = (a * xs3 + c) % m
+print("Ejercicio No.3")
+print("b. multiplicador =", int(a))
+print("c. incremento =", int(c))
+print("d. S4 =", int(xs4))
